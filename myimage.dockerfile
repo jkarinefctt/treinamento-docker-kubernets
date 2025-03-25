@@ -8,7 +8,7 @@ ENV DB_USER=root
 ENV DB_PASSWORD=examplepassword
 ENV DB_NAME=mydatabase
 ENV DB_HOST=localhost
-ENV DB_PORT=3306
+ENV DB_PORT=5433
 
 COPY requirements.txt ./
 COPY file.py ./
